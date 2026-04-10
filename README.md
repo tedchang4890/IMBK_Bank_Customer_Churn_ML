@@ -1,6 +1,6 @@
 # 고객 이탈 분류 ML 및 인사이트 분석
 
-> **2026.04.09.**
+> 기간 : **2026.04.09.**
 
 # 1. Tech Stack & Tools
 ### **Language & Environment**
