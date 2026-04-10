@@ -2,7 +2,9 @@
 
 > **2026.04.09.**
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack & Tools
+
+* **Language & Environment**
 
 ## 📌 Project Overview
 
