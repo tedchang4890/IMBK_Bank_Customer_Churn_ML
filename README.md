@@ -65,8 +65,10 @@
 
 - Result:
 
-| Accuracy | 0.8715 |
-| F1 | 0.6111 |
+| Metric | Score |
+| :--- | :--- |
+| **Accurac** | 0.8715 |
+| **F1 Score** | 0.6111 |
 
 
 
