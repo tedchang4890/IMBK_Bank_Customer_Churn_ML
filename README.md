@@ -1,2 +1,2 @@
-# IMBK_Bank_Customer_Churn_ML
+# 프로젝트명 : 고객 이탈 분류 ML 및 인사이트 분석
 
