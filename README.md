@@ -16,7 +16,7 @@
 # 2. Data Source
   * **데이터 출처**: 캐글 Bank Customer Churn Dataset (row: 10000, col:12)
 
-# 3. Data Ptocessing
+# 3. Data Processing
 
 ### Feature Selection & Data Cleaning
 
