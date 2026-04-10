@@ -5,6 +5,8 @@
 ## 🛠 Tech Stack & Tools
 
 * **Language & Environment**
+ - Python
+* 
 
 ## 📌 Project Overview
 
