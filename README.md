@@ -11,7 +11,7 @@
 ### **Machine Learning**
 - **CatBoost / LightGBM / GradientBoosting / XGBoost** : 고성능 부스팅 알고리즘들을 전방 모델(Base Models)로 사용하여 예측력 강화
 - **Scikit-learn** : **StackingClassifier**를 활용한 앙상블 모델 구현, **LogisticRegression**을 통한 메타 모델링, 성능 평가 지표(F1-score, Accuracy) 산출
-- **Ensemble Technique** : 과적합 방지를 위해 전방 모델(Boosting 계열)과 후방 모델(Linear 계열)을 조합한 스태킹(Stacking) 전략 수립
+- **Ensemble Technique** : 과적합 방지를 위해 전방 모델과 후방 모델을 조합한 스태킹(Stacking) 전략 수립
   
 # 2. Data Source
   * **데이터 출처**: 캐글 Bank Customer Churn Dataset (row: 10000, col:12)
