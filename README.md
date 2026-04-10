@@ -4,10 +4,10 @@
 
 # 🛠 Tech Stack & Tools
 ## **Language & Environment**
-- **Pytho** : 데이터 전처리 및 머신러닝 모델 구축의 메인 언어
+- **Python** : 데이터 전처리 및 머신러닝 모델 구축의 메인 언어
 ## **Data Analysis & Manipulation**
-- **Pandas & NumPy**
-- **Matplotlib & Seaborn**
+- **Pandas & NumPy** : 대규모 은행 고객 데이터셋 핸들링 및 피처 엔지니어링
+- **Matplotlib & Seaborn** : 데이터 분포 확인 및 모델 결과 해석을 위한 시각화
 ## **Machine Learning**
 - **XGBoost / LightGBM / CatBoost** : 고성능 부스팅 알고리즘들을 전방 모델(Base Models)로 사용하여 예측력 강화
 - **Scikit-learn** : StackingClassifier를 활용한 앙상블 모델 구현, LogisticRegression을 통한 메타 모델링, 성능 평가 지표(F1-score, Accuracy) 산출
