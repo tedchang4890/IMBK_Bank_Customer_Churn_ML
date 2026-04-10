@@ -18,19 +18,21 @@
 
 # 3. Data Ptocessing
 
-### 불필요한 식별자 제거
+### Feature Selection & Data Cleaning
 
-데이터의 가독성과 모델의 학습 효율을 위해 다음과 같은 전처리를 수행했습니다.
+  * 불필요한 식별자 제거: 예측에 유의미한 정보를 제공하지 않는 **RowNumber, CustomerId, Surname** 컬럼을 삭제하여 모델의 복잡도를 줄이고 과적합을 방지하였습니다.
+  * 결측치 및 이상치 확인: 데이터의 무결성을 점검하여 분석의 신뢰도를 확보하였습니다.
 
-  * **범주형 변수 변환**: 성별(Female: 0, Male: 1) 및 멤버십 활성화 여부(Active: 0, Inactive: 1) 등 이진 분류가 가능하도록 인코딩을 진행했습니다.
-  * **불필요한 컬럼 제거**: 예측에 유의미한 영향을 주지 않는 고객 ID, 성(Surname) 등의 필드를 삭제하여 모델의 일반화 성능을 높였습니다.
-
-### 2\. Modeling Strategy: Stacking Ensemble
+### Categorical Variable Encoding
 
 단일 모델의 한계를 극복하기 위해 다층 구조의 **Stacking Classifier**를 설계했습니다.
 
   * **Base Models (1단계)**: `CatBoost`, `LightGBM`, `GradientBoosting`, `XGBoost`를 활용하여 데이터의 다양한 패턴을 개별적으로 학습했습니다.
   * **Meta Model (2단계)**: 개별 모델들의 예측 결과를 결합할 때 발생할 수 있는 과적합(Overfitting)을 방지하기 위해, 최종 모델로 **Logistic Regression**을 사용했습니다.
+
+### Target Variable Analysis (Class Imbalance)
+
+### Feature Scaling
 
 ## 📈 Evaluation Results
 
