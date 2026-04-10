@@ -3,7 +3,7 @@
 > **2026.04.09.**
 
 # 1. Tech Stack & Tools
-## **Language & Environment**
+### **Language & Environment**
 - **Python** : 데이터 전처리 및 머신러닝 모델 구축의 메인 언어
 ## **Data Analysis & Manipulation**
 - **Pandas & NumPy** : 대규모 은행 고객 데이터셋 핸들링 및 피처 엔지니어링
