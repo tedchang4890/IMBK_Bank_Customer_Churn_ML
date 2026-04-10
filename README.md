@@ -64,8 +64,9 @@
 - **Meta Model** : 복잡한 비선형 조합으로 인한 과적합(Overfitting)을 방지하고자 Logistic Regression을 최종 모델로 채택
 
 - Result:
-| Accuracy score | 0.8715 |
-| F1 Score | 0.6111 |
+
+| Accuracy | 0.8715 |
+| F1 | 0.6111 |
 
 
 
