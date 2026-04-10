@@ -4,7 +4,7 @@
 
 ## 🛠 Tech Stack & Tools
 
-* **Language & Environment**
+# **Language & Environment**
  - Python
 * 
 
