@@ -61,7 +61,7 @@
 
 ## Stacking Pipe
 
-- **Base Models** : 최적화된 하이퍼파라미터가 적용된 4종(**CatBoost, LightGBM, GradientBoosting, XGBoost**)의 고성능 부스팅 
+- **Base Models** : 최적화된 하이퍼파라미터가 적용된 4종(**CatBoost, LightGBM, GradientBoosting, XGBoost**)의 고성능 부스팅 모델
 
 Result:
 
