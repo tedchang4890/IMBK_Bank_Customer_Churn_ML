@@ -20,21 +20,26 @@
 
 ### Feature Selection & Data Cleaning
 
-  * 불필요한 식별자 제거: 예측에 유의미한 정보를 제공하지 않는 **RowNumber, CustomerId, Surname** 컬럼을 삭제하여 모델의 복잡도를 줄이고 과적합을 방지하였습니다.
-  * 결측치 및 이상치 확인: 데이터의 무결성을 점검하여 분석의 신뢰도를 확보하였습니다.
+  * **불필요한 식별자 제거** : 예측에 유의미한 정보를 제공하지 않는 **RowNumber, CustomerId, Surname** 컬럼을 삭제하여 모델의 복잡도를 줄이고 과적합을 방지
+  * **결측치 및 이상치 확인** : 데이터의 무결성을 점검하여 분석의 신뢰도를 확보
 
-### Categorical Variable Encoding
+### Encoding
 
-단일 모델의 한계를 극복하기 위해 다층 구조의 **Stacking Classifier**를 설계했습니다.
-
-  * **Base Models (1단계)**: `CatBoost`, `LightGBM`, `GradientBoosting`, `XGBoost`를 활용하여 데이터의 다양한 패턴을 개별적으로 학습했습니다.
-  * **Meta Model (2단계)**: 개별 모델들의 예측 결과를 결합할 때 발생할 수 있는 과적합(Overfitting)을 방지하기 위해, 최종 모델로 **Logistic Regression**을 사용했습니다.
-
-### Target Variable Analysis (Class Imbalance)
+  * **Label Encoding** : Gender(Female: 0, Male: 1)와 country(France: 0, Germany: 1, Spain: 2)로 변수들을 수치화하여 구성
 
 ### Feature Scaling
 
-## 📈 Evaluation Results
+  * **Scaling** : StandardScaler를 통해 이상치의 영향을 감소
+
+## 3. EDA
+
+![Uploading 스크린샷 2026-04-10 13.09.54.png…]()
+<img width="865" height="769" alt="스크린샷 2026-04-10 13 09 34" src="https://github.com/user-attachments/assets/bac3e152-3242-4543-bd14-9372cee3c6f7" />
+
+
+<img width="882" height="754" alt="스크린샷 2026-04-10 13 10 09" src="https://github.com/user-attachments/assets/d065efef-0560-4933-b4c6-8836a55b59f1" />
+
+
 
 최종 스태킹 모델을 검증 데이터에 적용한 결과는 다음과 같습니다.
 
