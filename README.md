@@ -3,12 +3,18 @@
 > **2026.04.09.**
 
 # 🛠 Tech Stack & Tools
-
 ## **Language & Environment**
- - Python
-* 
+- Python
+## **Data Analysis & Manipulation**
+- Pandas & NumPy
+- Matplotlib & Seaborn 
+## **Machine Learning**
+- Scikit-learn
+- XGBoost / LightGBM / CatBoost
+- Ensemble Technique
 
-## 📌 Project Overview
+  
+# 📌 Project Overview
 
   * **데이터 출처**: [Kaggle Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data)
   * **핵심 과제**: 고객의 신용 점수, 거주 국가, 성별, 보유 자산 등 10개 이상의 특성(Feature)을 바탕으로 이탈 여부(Exited)를 분류
