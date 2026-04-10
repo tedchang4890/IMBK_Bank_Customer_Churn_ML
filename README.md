@@ -13,8 +13,7 @@
 - **Scikit-learn** : StackingClassifier를 활용한 앙상블 모델 구현, LogisticRegression을 통한 메타 모델링, 성능 평가 지표(F1-score, Accuracy) 산출
 - **Ensemble Technique** : 과적합 방지를 위해 전방 모델(Boosting 계열)과 후방 모델(Linear 계열)을 조합한 스태킹(Stacking) 전략 수립
   
-# 📌 Project Overview
-
+# 🔍 Data Source
   * **데이터 출처**: [Kaggle Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data)
   * **핵심 과제**: 고객의 신용 점수, 거주 국가, 성별, 보유 자산 등 10개 이상의 특성(Feature)을 바탕으로 이탈 여부(Exited)를 분류
 
