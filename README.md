@@ -63,7 +63,7 @@
 
 - **Base Models** : 최적화된 하이퍼파라미터가 적용된 4종의 고성능 부스팅 
 
-- Result:
+### Result:
 
 | Model | F1 Score |
 | --- | --- |
@@ -71,8 +71,6 @@
 | **LGBM** | 0.5727 |
 | **GradientBoosting** | 0.6161 |
 | **XGBoost** | 0.5973 |
-
-CatBoost / LightGBM / GradientBoosting / XGBoost
 
 - **Meta Model** : 복잡한 비선형 조합으로 인한 과적합(Overfitting)을 방지하고자 Logistic Regression을 최종 모델로 채택
 
