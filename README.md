@@ -33,7 +33,6 @@
 
 ## 3. EDA
 
-![Uploading 스크린샷 2026-04-10 13.09.54.png…]()
 <img width="865" height="769" alt="스크린샷 2026-04-10 13 09 34" src="https://github.com/user-attachments/assets/bac3e152-3242-4543-bd14-9372cee3c6f7" />
 
 
