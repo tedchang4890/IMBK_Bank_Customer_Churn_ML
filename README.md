@@ -49,18 +49,23 @@
 
 # 5. ML
 
-## AutoML 
+## AutoML & Hyperparameter Tuning
 
 - **Target Objective** : pycaret을 통한 F1-Score값
 
 - **Search Space** : n_estimators, max_depth, learning_rate 등 각 부스팅 알고리즘의 핵심 파라미터 최적화
 
-- **Target Models** : Target Objective 상위 CatBoost, LightGBM, GradientBoosting, XGBoost
+- **Target Models** : F1-Score 상위 4개 모델 (**CatBoost, LightGBM, GradientBoosting, XGBoost**)
 
+## Stacking Pipe
 
+- **Base Models** : 최적화된 하이퍼파라미터가 적용된 4종의 고성능 부스팅 모델
 
+- **Meta Model** : 복잡한 비선형 조합으로 인한 과적합(Overfitting)을 방지하고자 Logistic Regression을 최종 모델로 채택
 
-
+- Result:
+| Accuracy score | 0.8715 |
+| F1 Score | 0.6111 |
 
 
 
