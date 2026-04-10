@@ -2,9 +2,9 @@
 
 > **2026.04.09.**
 
-## 🛠 Tech Stack & Tools
+# 🛠 Tech Stack & Tools
 
-# **Language & Environment**
+## **Language & Environment**
  - Python
 * 
 
