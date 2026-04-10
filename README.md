@@ -35,6 +35,7 @@
 
 <img width="865" height="769" alt="스크린샷 2026-04-10 13 09 34" src="https://github.com/user-attachments/assets/bac3e152-3242-4543-bd14-9372cee3c6f7" />
 
+변수들의 히트맵을 통해 타겟 변수로 설정한 **churn**과 상관관계 상위 4개인 age, active_member, balance, gender를 확인
 
 <img width="882" height="754" alt="스크린샷 2026-04-10 13 10 09" src="https://github.com/user-attachments/assets/d065efef-0560-4933-b4c6-8836a55b59f1" />
 
